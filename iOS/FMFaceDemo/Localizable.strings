@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  FMFaceDemo
+
+  Created by user on 3/1/23.
+  
+*/
+
+
+"please_input_name" = "Please input name";
+"register" = "Register";
+"name" = "Name";
+"duplicated_name" = "Duplicated name!";
+"multiple_face_detected" = "Multiple face detected!";
+"no_face_detected" = "No face detected!";
+"appid_error" = "AppID Error!";
+"invalid_license" = "Invalid License!";
+"license_expired" = "License Expired!";
+"no_activated" = "No Activated!";
+"init_error" = "Init Error!";
+"register_successed" = "Register succeed!";
+"liveness_check_failed" = "Liveness check failed!";
+"verify_succeed" = "Verify Succeed!";
+"verify_timeout" = "Verify Timeout!";
+"verify_failed" = "Verify Failed!";

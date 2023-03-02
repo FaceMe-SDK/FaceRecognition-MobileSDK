@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G72" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="faceData" optional="YES" attributeType="Binary"/>
+        <attribute name="featData" optional="YES" attributeType="Binary"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+    </entity>
+</model>

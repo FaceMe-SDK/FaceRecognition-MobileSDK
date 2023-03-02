@@ -1,0 +1,6 @@
+framework module fm_face {
+  umbrella header "fm_face.h"
+
+  export *
+  module * { export * }
+}
