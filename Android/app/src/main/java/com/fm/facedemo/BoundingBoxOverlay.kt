@@ -17,6 +17,9 @@ import com.fm.face.FaceBox
 class BoundingBoxOverlay( context: Context , attributeSet: AttributeSet )
     : SurfaceView( context , attributeSet ) , SurfaceHolder.Callback {
 
+    companion object {
+        private val TAG = BoundingBoxOverlay::class.simpleName
+    }
     // Variables used to compute output2overlay transformation matrix
     // These are assigned in FrameAnalyser.kt
     var areDimsInit = false
@@ -75,8 +78,6 @@ class BoundingBoxOverlay( context: Context , attributeSet: AttributeSet )
     override fun surfaceDestroyed(holder: SurfaceHolder) {
         TODO("Not yet implemented")
     }
-
-
     override fun onDraw(canvas: Canvas?) {
         if (faceBoundingBoxes != null) {
             if (!areDimsInit) {

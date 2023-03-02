@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">FaceMe SDK</string>
+
+    <string name="name_should_not_be_empty">Please input name.</string>
+    <string name="duplicated_name">Duplicated name!</string>
+
+    <string name="multiple_face_detected">Multiple face detected!</string>
+    <string name="no_face_detected">No face detected!</string>
+    <string name="appid_error">AppID Error!</string>
+    <string name="invalid_license">Invalid License!</string>
+    <string name="license_expired">License Expired!</string>
+    <string name="no_activated">No Activated!</string>
+    <string name="init_error">Init Error!</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="register_successed">Register succeed!</string>
+    <string name="delete_user">Delete User</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete All</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="liveness_check_failed">Liveness check failed!</string>
+    <string name="users">Users</string>
+    <string name="verify_succeed">Verify Succeed!: </string>
+    <string name="verify_timeout">Verify Timeout!</string>
+    <string name="verify_failed">Verify Failed!</string>
+    <string name="liveness_failed">Liveness Check Failed!</string>
 </resources>
